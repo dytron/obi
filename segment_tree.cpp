@@ -50,7 +50,7 @@ int main(){
             int a, b; //
             cin >> cc >> a >> b;
             if (cc == 'C'){ // Comando de alteração de valor
-                update(1, 1, n, a, b); Alterar para (b) o valor contido na posição (a)
+                update(1, 1, n, a, b); // Alterar para (b) o valor contido na posição (a)
             }else{ // Comando de consulta
                 cout << query(1, 1, n, a, b) << " "; // Imprima o resultado da consulta no intervalo [a, b]
             }
